@@ -10,7 +10,7 @@ The initial image is :-
 ## Features
 
 - **Convert to Grayscale:** Transform colored images into grayscale.
-  ![Image Editor Screenshot](Screenshot (22).jpg)
+  ![Image Editor Screenshot](gray scale code.png)
   ![Image Editor Screenshot](grayscaleImage.jpg)
 
 - **Rotate:** Rotate images 90 degrees clockwise.
