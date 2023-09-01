@@ -41,6 +41,7 @@ Follow these steps to get started with the Java Image Editor:
 - Follow the on-screen instructions to perform the desired operation on your image.
 
 ### Examples
+```
 // Load an image
 BufferedImage inputImage = ImageIO.read(new File("input.jpg"));
 
@@ -54,7 +55,7 @@ ImageIO.write(rotatedImage, "jpg", new File("rotated.jpg"));
 
 // Adjust the brightness of the image by 20%
 BufferedImage brightenedImage = ImageEditor.changeBrightness(inputImage, 20);
-ImageIO.write(brightenedImage, "jpg", new File("brightened.jpg"))
+ImageIO.write(brightenedImage, "jpg", new File("brightened.jpg"))```
 
 
 
