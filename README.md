@@ -80,17 +80,17 @@ Follow these steps to get started with the Java Image Editor:
 
 # Code Snippets :
 
+![Image Editor Screenshot](codesnippet1.png)
 
+![Image Editor Screenshot](codesnippet2.png)
 
+![Image Editor Screenshot](codesnippet3.png)
 
+![Image Editor Screenshot](codesnippet4.png)
 
+![Image Editor Screenshot](codesnippet5.png)
 
-
-
-
-
-
-
+![Image Editor Screenshot](codesnippet6.png)
 
 
 # Code Explanation:- 
