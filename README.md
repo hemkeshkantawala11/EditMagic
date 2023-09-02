@@ -10,18 +10,23 @@ The initial image is :-
 ## Features
 
 - **Convert to Grayscale:** Transform colored images into grayscale.
+  
   ![Image Editor Screenshot](grayscaleImage.jpg)
 
 - **Rotate:** Rotate images 90 degrees clockwise.
+  
   ![Image Editor Screenshot](rotatedImage.jpg)
 
 - **Horizontal Invert:** Flip images horizontally.
+  
   ![Image Editor Screenshot](HorizontallyrotatedImage.jpg)
 
 - **Vertical Invert:** Flip images vertically.
+  
   ![Image Editor Screenshot](VerticallyrotatedImage.jpg)
 
 - **Adjust Brightness:** Increase or decrease image brightness.
+  
   ![Image Editor Screenshot](changebright.jpg)
 
 ## Getting Started
@@ -33,7 +38,7 @@ Follow these steps to get started with the Java Image Editor:
 - Java Installed on the device
 - Any Java IDE.
 - An Image.
-  # Libraries Needed:-
+  ### Libraries Needed:-
   - javax.imageio.ImageIO;
   - java.awt.*;
   - java.awt.image.*;
@@ -41,7 +46,7 @@ Follow these steps to get started with the Java Image Editor:
   - java.io.IOException;
   - java.nio.Buffer;
   - java.util.Scanner;
-### All the Functions Explanations:-
+# All the Functions Explanations:-
 1) GrayScaling : Here I First get the height and width of the image which i need to edit. Then I used a nested for loop for getting the particular pixel values of the image, then I set the all the pixel values to the new bufferred image where I particularly used the in-built function of 'BufferredImage.TYPE_BYTE_GRAY'. This runs and successfully creates a result image in the current working directory.
    
 2) RotateClockwise : Here I First get the height and width of the image which i need to edit. Then I created a new bufferred Image in which I append the new changes. Then I used a nested for loop for getting the particular pixel values of the image, then I set the all the pixel values and set the columns and rows values in the new bufferred image and gave it the pixel values of the image rows and columns. This runs and successfully creates a result image in the current working directory with name rotatedImage.jpg.
@@ -56,7 +61,7 @@ Follow these steps to get started with the Java Image Editor:
 
 
 
-### Usage
+# Usage
 - Open the project in your favorite Java IDE (e.g., Eclipse, IntelliJ IDEA).
 
 - Run the ImageEditor.java file.
@@ -71,9 +76,9 @@ Follow these steps to get started with the Java Image Editor:
 - After selecting the option the result image would be saved in the current working directory.
   
 
-### Code Snippets :
+# Code Snippets :
 
-### Code Explanation:- 
+# Code Explanation:- 
 This whole code works in the Command Line. I have used the infinite while loop for the editing functions. On running the code it asks for selecting one of the 7 options which we have to type in the output terminal. Once we select the option, the particular function gets called and gives the output. The output Image gets saved in the current working directory, which we can access through navigating to that folder from the file manager or from your working IDE. This runs infinitely until we choose the option '0' which is the only way to break the loop and come out of the code.
 
 
