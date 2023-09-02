@@ -15,7 +15,7 @@ The initial image is :-
 
 - **Rotate:** Rotate images 90 degrees clockwise.
   
-  ![Image Editor Screenshot](rotatedImage.jpg)
+  ![Image Editor Screenshot](rotatedClockImage.jpg)
 
 - **Horizontal Invert:** Flip images horizontally.
   
