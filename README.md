@@ -97,9 +97,20 @@ Follow these steps to get started with the Java Image Editor:
 This whole code works in the Command Line. I have used the infinite while loop for the editing functions. On running the code it asks for selecting one of the 7 options which we have to type in the output terminal. Once we select the option, the particular function gets called and gives the output. The output Image gets saved in the current working directory, which we can access through navigating to that folder from the file manager or from your working IDE. This runs infinitely until we choose the option '0' which is the only way to break the loop and come out of the code.
 
 
+# OUTPUT OF THE CODE :
+
+![Image Editor Screenshot](grayscalecode.png)
 
 
 
+![Image Editor Screenshot](printpixelvalues.png)
+
+
+![Image Editor Screenshot](changebrightnessoutput.png)
+
+
+
+____________________________________________________________________________________________________________________________________________________________________________
 
 
 Enjoy image editing with Java!
